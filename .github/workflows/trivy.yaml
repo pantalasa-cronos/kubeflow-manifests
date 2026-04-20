@@ -16,7 +16,7 @@ permissions:
 jobs:
   image-extraction-and-security-scan:
     if: ${{ github.repository == 'kubeflow/manifests' }}
-    runs-on: ubuntu-latest
+    runs-on: cronos
     steps:
     - name: Checkout code
       uses: actions/checkout@v4

@@ -18,7 +18,7 @@ env:
 
 jobs:
   test-istio:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     strategy:
       matrix:
         istio-mode: ['cni', 'insecure']

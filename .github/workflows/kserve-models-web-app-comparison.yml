@@ -14,7 +14,7 @@ on:
 
 jobs:
   validate-models-web-app-equivalence:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     name: Compare KServe Models Web App Scenarios
     steps:
     - name: Checkout code

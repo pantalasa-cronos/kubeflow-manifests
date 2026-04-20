@@ -17,7 +17,7 @@ permissions:
 
 jobs:
   validate-helm-kustomize-equivalence:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     name: Compare All Scenarios
     steps:
     - name: Checkout code

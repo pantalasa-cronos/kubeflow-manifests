@@ -8,7 +8,7 @@ permissions:
 
 jobs:
   format_python_files:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     steps:
     - uses: actions/checkout@v4
 
@@ -33,7 +33,7 @@ jobs:
           ./example
 
   format_YAML_files:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     steps:
     - uses: actions/checkout@v4
       with:
@@ -102,7 +102,7 @@ jobs:
       shell: bash
 
   format_bash_files:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     steps:
     - uses: actions/checkout@v4
       with:

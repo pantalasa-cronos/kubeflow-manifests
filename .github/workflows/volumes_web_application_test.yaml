@@ -22,7 +22,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: cronos
     timeout-minutes: 15
     steps:
     - name: Checkout
